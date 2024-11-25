@@ -2,6 +2,8 @@
 
 Repository of all mined assets, including sprites, sounds, and news items. This repo is organized based on category and is a combination of downloaded/remote assets and assets found inside the APK.
 
+**NOTE:** Looking for something that's not in the repo? Check out our temporary scratch folder: [https://pokeminers.com/scratch](https://pokeminers.com/scratch). This is where assets will live (unorganized) until we have a chance to update the repo. Once added to the repo, they will be removed from the scratch folder.
+
 ## Folder Structure
 
 ### Images
@@ -21,26 +23,6 @@ All sound effects and music that are mined are found here. They are organized by
 Mined text assets which contain quests among other things will be found here. Inside there are two folders, one for `Latest APK` and one for `Latest Remote`. When Niantic pushes a text update, it's pushed to the Remote. Once a new APK is released, all remote pushes are merged into the APK and removed from the Remote; therefore, we maintain both.
 
 **Note:** Keep in mind it is expected that the Remote will have items removed from it after a new APK is released.
-
-### News
-
-All datamined news images and texts from the In-Game News will be found here. There will be two folders: one for images and one for texts. In Texts, the file called `CurrentNews.tsv` will contain the most recent news file and the `Old News Texts` will contain a history of older news texts. Keep in mind each tsv contains all current news in the game.
-
-### Shop Images
-
-Any images that are displayed in the shop that we datamine.
-
-### Photobombs
-
-Images that appear as a photobombed overlay during Snapshots will be in this folder. There is no back catalog as images can only be pulled during their event window.
-
-### Quest Branching
-
-Any images that appear during quest branches (the banners or the chosen images themselves). They are broken up into their quest/event folders.
-
-### Mega Portraits
-
-The images the game uses to display a mega behind a Mega evolved Pokemon.
 
 ### Candy Color Data
 
